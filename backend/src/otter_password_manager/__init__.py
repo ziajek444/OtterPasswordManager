@@ -1,0 +1,2 @@
+"""Otter Password Manager backend."""
+
