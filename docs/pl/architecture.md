@@ -1,5 +1,7 @@
 # Architektura rozwiązania
 
+[English version](../en/architecture.md)
+
 ## Widok systemowy
 
 ```mermaid
@@ -122,4 +124,3 @@ sequenceDiagram
 
 Hasło jawne istnieje chwilowo w pamięci klienta, w żądaniu HTTPS i w pamięci
 backendu. W SQLite zapisywana jest wyłącznie koperta AES-GCM.
-

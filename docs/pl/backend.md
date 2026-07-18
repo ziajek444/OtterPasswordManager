@@ -1,5 +1,7 @@
 # Backend FastAPI
 
+[English version](../en/backend.md)
+
 ## Wymagania
 
 - Python 3.13,
@@ -84,4 +86,3 @@ szyfrowanie i reguły własności wpisów.
 - błąd walidacji ustawień: porównaj `.env` z `.env.example`.
 - `InvalidTag` przy odszyfrowaniu: używany jest inny klucz niż podczas zapisu albo
   dane zostały zmodyfikowane.
-

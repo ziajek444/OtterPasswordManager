@@ -1,5 +1,7 @@
 # Bezpieczeństwo
 
+[English version](../en/security.md)
+
 ## Model ochrony
 
 System rozdziela trzy mechanizmy:
@@ -129,4 +131,3 @@ sprawdzają właściciela ani roli. To znane ryzyko do usunięcia przed produkcj
 - [ ] mechanizm refresh/rotation/revocation.
 - [ ] test odtwarzania backupu.
 - [ ] aktualizacje systemu i zależności.
-

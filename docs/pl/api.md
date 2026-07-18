@@ -1,5 +1,7 @@
 # REST API
 
+[English version](../en/api.md)
+
 Bazowy adres lokalny: `http://127.0.0.1:8000`. Wszystkie dane wejściowe i
 wyjściowe używają JSON, poza odpowiedzią `204 No Content`.
 
@@ -209,4 +211,3 @@ sequenceDiagram
     Client->>Client: zapis tokenów w RAM
     Client-->>UI: zalogowano
 ```
-

@@ -1,5 +1,7 @@
 # Wdrożenie na VPS
 
+[English version](../en/deployment.md)
+
 Poniżej znajduje się przykładowy wariant dla Linuxa, systemd i Caddy. Nazwy konta,
 domeny i ścieżek dostosuj do swojego serwera.
 
@@ -156,4 +158,3 @@ Interpretacja:
 Docker nie jest wymagany. Może później zapewnić identyczny Python 3.13 lokalnie i
 na VPS. Katalog `data` musi wtedy być trwałym wolumenem, a sekrety powinny być
 przekazywane jako bezpieczne zmienne/sekrety, nie zapisane w obrazie.
-

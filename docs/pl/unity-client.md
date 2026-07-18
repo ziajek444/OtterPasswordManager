@@ -1,5 +1,7 @@
 # Klient Unity
 
+[English version](../en/unity-client.md)
+
 ## Wymagania i stan projektu
 
 Projekt został utworzony w Unity `2021.3.32f1`. Kod klienta znajduje się w:
@@ -95,4 +97,3 @@ np. Keychain, Android Keystore lub Windows Credential Manager.
   bezpieczeństwa platformy;
 - aplikacja pokazuje pustą scenę: zatrzymaj Play Mode, zaczekaj na kompilację i
   uruchom scenę ponownie.
-

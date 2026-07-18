@@ -1,5 +1,7 @@
 # Konfiguracja
 
+[English version](../en/configuration.md)
+
 Backend używa `pydantic-settings`. Odczytuje `backend/.env`, a następnie nadpisuje
 wartości zmiennymi środowiskowymi. Wszystkie nazwy mają prefiks `OTTER_`.
 
@@ -78,4 +80,3 @@ profile środowiskowe, np. `ApiConfiguration` jako `ScriptableObject`.
 Niepoprawny lub zbyt krótki `OTTER_JWT_SECRET` zatrzyma start. `EncryptionService`
 odrzuci klucz, który nie jest poprawnym Base64 albo po dekodowaniu nie ma 32 bajtów.
 To celowe: aplikacja nie powinna wystartować z niebezpieczną konfiguracją.
-

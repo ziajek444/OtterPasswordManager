@@ -1,5 +1,7 @@
 # SQLite i dane
 
+[English version](../en/database.md)
+
 ## Lokalizacja
 
 Domyślna baza:
@@ -137,4 +139,3 @@ Na produkcji kolejność wdrożenia:
 3. wgraj kod,
 4. uruchom `alembic upgrade head`,
 5. uruchom usługę i test zdrowia/logowania.
-
