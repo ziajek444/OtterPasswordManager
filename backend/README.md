@@ -13,6 +13,9 @@ py -3.13 -m venv .venv
 python -m pip install -e ".[dev]"
 alembic upgrade head
 python -m otter_password_manager
+* alternatywnie:
+cd backend/
+.\.venv\Scripts\python.exe -m otter_password_manager
 ```
 
 Konfiguracja jest odczytywana z pliku `.env` oraz zmiennych środowiskowych z

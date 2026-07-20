@@ -9,6 +9,7 @@ namespace OtterPasswordManager.Composition
     public static class ApplicationBootstrapper
     {
         private const string LocalApiUrl = "http://127.0.0.1:8000";
+        private const bool EnableApiDebugLogging = true;
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         private static void Initialize()
@@ -20,7 +21,8 @@ namespace OtterPasswordManager.Composition
             Object.DontDestroyOnLoad(applicationObject);
 
             ITokenStore tokenStore = new InMemoryTokenStore();
-            IHttpTransport transport = new UnityHttpTransport(LocalApiUrl);
+            var debugOptions = new ApiDebugOptions(EnableApiDebugLogging);
+            IHttpTransport transport = new UnityHttpTransport(LocalApiUrl, debugOptions);
             IApiClient apiClient = new ApiClient(transport, tokenStore);
 
             PasswordManagerController controller =
