@@ -207,6 +207,7 @@ namespace OtterPasswordManager.Presentation
 
         private async void RunActionAsync(Func<Task> action, Text status, Button button)
         {
+            // async void is invalid type ("async task" is valid type) but we need to use async void here because this method is called from Unity UI event handlers
             if (_busy)
                 return;
             _busy = true;
